@@ -2,6 +2,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .header-top {
@@ -14,7 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    /* color: #F9FAF8; */
 }
 
 .header-logo img {
@@ -31,11 +32,7 @@ body {
 
 .header-top-links a {
     padding: 0px 5px;
-}
-
-.header-logo-and-links {
-    display: flex;
-    justify-content: space-between;
+    text-decoration: none;
 }
 
 img {
@@ -47,6 +44,30 @@ img {
 .header-description-and-image {
     display: flex;
     align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    /* background-color: #1f2937; */
+}
+
+.website-description {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.website-description button {
+    display: block;
+    text-align: center;
+    width: 80px;
+    background-color: #3882f6;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+
 }
 
 .header, .header-description-and-image {

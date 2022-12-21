@@ -28,6 +28,7 @@ body {
     /* margin-left: auto; */
     color: #e5e7eb;
     font-size: 18px;
+    padding: 10px;
 }
 
 .header-top-links a {
@@ -163,5 +164,5 @@ img {
 .footer {
     background-color: #1f2937;
     color: white;
-    padding: 40px;
+    padding: 30px;
 }

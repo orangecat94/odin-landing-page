@@ -28,7 +28,6 @@ body {
     /* margin-left: auto; */
     color: #e5e7eb;
     font-size: 18px;
-    text-decoration: none;
 }
 
 .header-top-links a {
@@ -134,4 +133,29 @@ img {
     font-size: 18px;
     font-weight: bold;
     text-align: right;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action-text {
+    text-align: left;
+    color: white;
+    flex: 1;
+}
+
+.call-to-action-button button{
+    border-radius: 5px;
+    border-color: none;
+    color: white;
+    background-color: #3882F6;
+    font-size: 15px;
+    padding: 5px 25px;
+    /* flex: 1; */
 }

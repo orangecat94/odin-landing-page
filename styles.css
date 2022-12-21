@@ -138,7 +138,7 @@ img {
 .call-to-action {
     display: flex;
     background-color: #3882F6 ;
-    margin: 50px 200px;
+    margin: 50px 100px 50px 100px;
     padding: 10px 80px;
     align-items: center;
     justify-content: center;
